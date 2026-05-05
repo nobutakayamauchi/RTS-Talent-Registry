@@ -1,0 +1,11 @@
+id: template_employee
+role: template
+status: draft
+permissions:
+  mode: read_only
+  prohibited_actions:
+    - publish
+    - install
+    - mutate_external_systems
+responsibilities: []
+routing_targets: []

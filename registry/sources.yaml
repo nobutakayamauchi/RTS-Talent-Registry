@@ -1,0 +1,33 @@
+external:
+  agency_agents:
+    type: github_repo
+    url: https://github.com/msitarzewski/agency-agents
+    note: "Candidate source only; not authoritative."
+  anthropics_skills:
+    type: github_repo
+    url: https://github.com/anthropics/skills
+    note: "Candidate source only; not authoritative."
+  antfu_skills:
+    type: github_repo
+    url: https://github.com/antfu/skills
+    note: "Candidate source only; not authoritative."
+  mcp_reference_servers:
+    type: github_repo
+    url: https://github.com/modelcontextprotocol/servers
+    note: "Candidate source only; not authoritative."
+  mcp_registry:
+    type: github_repo
+    url: https://github.com/modelcontextprotocol/registry
+    note: "Candidate source only; not authoritative."
+  postiz_app:
+    type: github_repo
+    url: https://github.com/gitroomhq/postiz-app
+    note: "Candidate source only; not authoritative."
+  postiz_agent:
+    type: github_repo
+    url: https://github.com/gitroomhq/postiz-agent
+    note: "Candidate source only; not authoritative."
+  openshorts:
+    type: github_repo
+    url: https://github.com/mutonby/openshorts
+    note: "Candidate source only; not authoritative."

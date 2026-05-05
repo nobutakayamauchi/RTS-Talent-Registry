@@ -1,0 +1,20 @@
+id: signal_intelligence_analyst
+role: signal_intelligence_analyst
+status: candidate
+permissions:
+  mode: read_only
+  prohibited_actions:
+    - publish
+    - install
+    - mutate_external_systems
+responsibilities:
+  - "Read Signal Feeds and summarize high-signal updates."
+  - "Propose Talent update candidates for registry intake/scoring."
+  - "Propose MCP candidate updates for governance review."
+  - "Draft SNS post ideas as non-publishing suggestions only."
+  - "Draft RTS trust record proposals as candidate notes only."
+routing_targets:
+  - talent_update_candidates
+  - mcp_candidates
+  - sns_draft_ideas
+  - rts_trust_record_drafts
