@@ -1,0 +1,1 @@
+{"timestamp":"2026-05-05T00:00:00Z","entry_id":"external.agency_agents","from":null,"to":"candidate","decision":"seed_intake","reviewer":"skeleton-init","confirmed_facts":["Seed entry created in governance ledger."],"assumptions":["Candidate may be relevant for agent governance patterns."],"unverified":["Security and fit not yet reviewed."],"risks":["Upstream volatility."]}

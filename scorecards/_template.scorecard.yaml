@@ -1,0 +1,17 @@
+id: template.scorecard
+entry_id: external.example
+review_date: "YYYY-MM-DD"
+reviewer: tbd
+
+scores:
+  utility: 0
+  safety: 0
+  maintainability: 0
+  governance_fit: 0
+
+decision: candidate
+
+confirmed_facts: []
+assumptions: []
+unverified: []
+risks: []

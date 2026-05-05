@@ -1,0 +1,141 @@
+version: "0.1"
+registry_mode: governance_ledger
+last_updated: "2026-05-05"
+
+promotion_levels:
+  - starred
+  - candidate
+  - trial
+  - bench
+  - specialist
+  - core_staff
+  - retired
+
+entries:
+  - id: external.agency_agents
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.agency_agents
+    confirmed_facts:
+      - "External repo is tracked as candidate metadata only."
+    assumptions:
+      - "May provide reusable agent profile patterns for RTS routing."
+    unverified:
+      - "Compatibility with RTS governance and security standards."
+    risks:
+      - "Upstream changes may invalidate prior evaluations."
+
+  - id: external.anthropics_skills
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.anthropics_skills
+    confirmed_facts:
+      - "Referenced as candidate source only; no manifest body mirrored here."
+    assumptions:
+      - "Could contain useful skill definitions for benchmarking."
+    unverified:
+      - "License and operational constraints for RTS use-cases."
+    risks:
+      - "Version drift and policy mismatch with RTS requirements."
+
+  - id: external.antfu_skills
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.antfu_skills
+    confirmed_facts:
+      - "Tracked as an external candidate skill source."
+    assumptions:
+      - "May improve specialized task handling in selected routes."
+    unverified:
+      - "Quality consistency across skill definitions."
+    risks:
+      - "Unknown maintenance continuity."
+
+  - id: external.mcp_reference_servers
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.mcp_reference_servers
+    confirmed_facts:
+      - "Candidate reference server set is externally hosted."
+    assumptions:
+      - "Can inform RTS MCP candidate review patterns."
+    unverified:
+      - "Server hardening and sandbox posture per component."
+    risks:
+      - "Potential tool permission overreach if adopted without review."
+
+  - id: external.mcp_registry
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.mcp_registry
+    confirmed_facts:
+      - "Registry is tracked by pointer only in this repository."
+    assumptions:
+      - "May expand discovery coverage for MCP candidates."
+    unverified:
+      - "Curation and quality criteria."
+    risks:
+      - "Candidate sprawl without strict promotion rules."
+
+  - id: external.postiz_app
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.postiz_app
+    confirmed_facts:
+      - "External application tracked as non-authoritative candidate."
+    assumptions:
+      - "Potential relevance for SNS workflow ideation only."
+    unverified:
+      - "Operational and compliance fit with RTS constraints."
+    risks:
+      - "Could require elevated permissions not acceptable in read-only phases."
+
+  - id: external.postiz_agent
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.postiz_agent
+    confirmed_facts:
+      - "Agent repo tracked only as candidate metadata."
+    assumptions:
+      - "May provide examples for social automation role decomposition."
+    unverified:
+      - "Safety controls and guardrails quality."
+    risks:
+      - "Automation side-effects if misunderstood as executable policy."
+
+  - id: external.openshorts
+    kind: external_repo
+    level: candidate
+    status: intake
+    authority: false
+    refs:
+      - registry/sources.yaml#external.openshorts
+    confirmed_facts:
+      - "Included as a candidate external repo in pre-test skeleton."
+    assumptions:
+      - "Could inform short-form content candidate workflows."
+    unverified:
+      - "Sustained maintenance and governance maturity."
+    risks:
+      - "Signal quality and content governance uncertainty."
